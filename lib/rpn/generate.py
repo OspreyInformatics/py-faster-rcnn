@@ -6,8 +6,8 @@
 # --------------------------------------------------------
 
 from fast_rcnn.config import cfg
-from utils.blob import im_list_to_blob
-from utils.timer import Timer
+from fast_rcnn_utils.blob import im_list_to_blob
+from fast_rcnn_utils.timer import Timer
 import numpy as np
 import cv2
 

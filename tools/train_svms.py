@@ -16,7 +16,7 @@ import _init_paths
 from fast_rcnn.config import cfg, cfg_from_file
 from datasets.factory import get_imdb
 from fast_rcnn.test import im_detect
-from utils.timer import Timer
+from fast_rcnn_utils.timer import Timer
 import caffe
 import argparse
 import pprint
